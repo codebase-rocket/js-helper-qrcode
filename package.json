@@ -1,0 +1,29 @@
+{
+  "name": "@codebase-rocket/js-helper-qrcode",
+  "description": "Boilerplate library. Contains functions related to QR Code Generation",
+  "version": "1.0.1",
+  "main": "qrcode.js",
+  "keywords": [],
+  "private": false,
+  "license": "Private",
+  "author": {
+    "name": "Prafful Kumar Singh"
+  },
+  "contributors": [
+    {
+      "name": "Shivanshu Jindal"
+    }
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "peerDependencies": {
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {}
+}
